@@ -1,0 +1,98 @@
+-------- ANALYSIS --------
+Algo name: ucs
+1. 
+Total Length of Solution Path:          37
+Average Length of Solution Path:        0.74
+
+Total Length of Search Path:            5743
+Average Length of Search Path:          114.86
+
+2.
+Total number of "no solution":          45
+Average number of "no solution":        0.9
+
+3.
+Total Cost:                             44
+Average Total Cost:                     0.88
+Total Execution Time:                   10.917
+Average Execution Time:                 0.21834
+
+
+-------- ANALYSIS --------
+Algo name: gbfs-h1
+1. 
+Total Length of Solution Path:          16
+Average Length of Solution Path:        0.32
+
+Total Length of Search Path:            77
+Average Length of Search Path:          1.54
+
+2.
+Total number of "no solution":          48
+Average number of "no solution":        0.96
+
+3.
+Total Cost:                             20
+Average Total Cost:                     0.4
+Total Execution Time:                   0.131
+Average Execution Time:                 0.00262
+
+
+-------- ANALYSIS --------
+Algo name: gbfs-h2
+1. 
+Total Length of Solution Path:          61
+Average Length of Solution Path:        1.22
+
+Total Length of Search Path:            225
+Average Length of Search Path:          4.5
+
+2.
+Total number of "no solution":          45
+Average number of "no solution":        0.9
+
+3.
+Total Cost:                             85
+Average Total Cost:                     1.7
+Total Execution Time:                   0.30400000000000005
+Average Execution Time:                 0.006080000000000001
+
+
+-------- ANALYSIS --------
+Algo name: astar-h1
+1. 
+Total Length of Solution Path:          255
+Average Length of Solution Path:        5.1
+
+Total Length of Search Path:            3065
+Average Length of Search Path:          61.3
+
+2.
+Total number of "no solution":          26
+Average number of "no solution":        0.52
+
+3.
+Total Cost:                             287
+Average Total Cost:                     5.74
+Total Execution Time:                   73.27000000000001
+Average Execution Time:                 1.4654000000000003
+
+
+-------- ANALYSIS --------
+Algo name: astar-h2
+1. 
+Total Length of Solution Path:          203
+Average Length of Solution Path:        4.06
+
+Total Length of Search Path:            4588
+Average Length of Search Path:          91.76
+
+2.
+Total number of "no solution":          29
+Average number of "no solution":        0.58
+
+3.
+Total Cost:                             234
+Average Total Cost:                     4.68
+Total Execution Time:                   45.039
+Average Execution Time:                 0.90078
