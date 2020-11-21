@@ -90,7 +90,7 @@ def get_time_diff(time_start):
     return round((datetime.now() - time_start).total_seconds(), 3)
 
 
-def generic_search_algo(start_node, algo, max_time=10):
+def generic_search_algo(start_node, algo, max_time=60):
     global goal_states
     global rows
     global cols
@@ -236,8 +236,9 @@ astar1 = AStarAlgorithm(h1)
 astar2 = AStarAlgorithm(h2)
 
 
-algo_names = ["ucs", "gbfs-h1", "gbfs-h2", "astar-h1", "astar-h2"]
-algos = [ucs, gbfs1, gbfs2, astar1, astar2]
+# algo_names = ["ucs", "gbfs-h1", "gbfs-h2", "astar-h1", "astar-h2"]
+algo_names = ["ucs", "gbfs-h0", "astar-h0"]
+algos = [ucs, gbfs0, astar0]
 
 
 # --- DEMO
@@ -349,7 +350,7 @@ Total Execution Time:\t\t\t{}
 Average Execution Time:\t\t\t{}
 """
 
-for i in range(5): # for each algo
+for i in range(len(algo_names)): # for each algo
     average_solution_length[i] = total_solution_length[i] / n_nodes
     average_search_length[i] = total_search_length[i] / n_nodes
     average_no_solution_count[i] = total_no_solution_count[i] / n_nodes
