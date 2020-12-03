@@ -1,4 +1,4 @@
-import os
+lshw -c displayimport os
 import numpy as np
 
 class RandomPuzzleGenerator:

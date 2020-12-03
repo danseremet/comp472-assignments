@@ -90,13 +90,13 @@ def get_time_diff(time_start):
     return round((datetime.now() - time_start).total_seconds(), 3)
 
 
-def generic_search_algo(start_node, algo, max_time=60):
+def generic_search_algo(start_node, algo, max_time=120):
     global goal_states
     global rows
     global cols
     goal_states = generate_goal_states(rows, cols)
-    print("goal_states:")
-    print_list(goal_states)
+#     print("goal_states:")
+#     print_list(goal_states)
     
     # The beginning of searching. (START COUNTER)
     time_start = datetime.now()
@@ -236,13 +236,15 @@ astar1 = AStarAlgorithm(h1)
 astar2 = AStarAlgorithm(h2)
 
 
-# algo_names = ["ucs", "gbfs-h1", "gbfs-h2", "astar-h1", "astar-h2"]
-algo_names = ["ucs", "gbfs-h0", "astar-h0"]
-algos = [ucs, gbfs0, astar0]
+algo_names = ["gbfs-h1", "gbfs-h2", "astar-h1", "astar-h2"]
+# algo_names = ["ucs", "gbfs-h0", "astar-h0"]
+algos = [gbfs1, gbfs2, astar1, astar2]
+# algos = [ucs, gbfs0, astar0]
 
 
 # --- DEMO
-puzzles = PuzzlesReader("samplePuzzles.txt").puzzles
+# puzzles = PuzzlesReader("samplePuzzles.txt").puzzles
+puzzles = PuzzlesReader("competitionPuzzles.txt").puzzles
 nodes = list(map(Node, puzzles))
 
 # --- SCALE UP ---------------------- uncomment to run
