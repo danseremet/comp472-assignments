@@ -11,6 +11,5 @@ Github URL: https://github.com/danseremet/comp472-assignments/tree/main/A3
 
 1. Download or clone ` git clone https://github.com/danseremet/comp472-assignments.git` the project.
 2. Assignment 3 is located in A3 folder.
-3. Run `python main.py`
-
+3. Run the jupyter A3.ipynb notebook with the regular Jupyter installation and packages used for this class.
 
